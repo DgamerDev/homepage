@@ -47,6 +47,12 @@ body {
     margin: 0 0 16px;
 }
 
+#about-me h2 {
+    text-align: center;
+    color: #fab387;
+    margin: 0 0 16px;
+}
+
 #about-me p {
     text-align: center;
     font-size: 1.3rem;
@@ -54,14 +60,36 @@ body {
     margin: 0;
 }
 
-#profile-picture {
+#projects {
+    padding: 40px 5%;
+    min-height: calc(100vh - 60px);
+}
+
+#projects .card {
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+
+#projects .card-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 16px;
+    object-fit: cover;
     flex-shrink: 0;
 }
 
-#profile-picture img {
-    width: 320px;
-    height: 320px;
-    border-radius: 50%;
-    border: 3px solid #585b70;
-    object-fit: cover;
+#projects .card-info h3 {
+    margin: 0 0 4px 0;
+    font-size: 1.1rem;
+}
+
+#projects .card-info p {
+    margin: 0 0 8px 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
 }

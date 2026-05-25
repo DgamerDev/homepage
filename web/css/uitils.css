@@ -78,6 +78,10 @@
     border-top: 1.5px solid #bac2de;
 }
 
+#footer .h6 {
+    font-size: 10px;
+}
+
 #footer .inner {
     max-width: 1280px;
     margin: 0 auto;
