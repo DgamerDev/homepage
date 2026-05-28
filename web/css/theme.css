@@ -105,6 +105,8 @@
     --ctp-mocha-crust-rgb: 17 17 27;
     --ctp-mocha-crust-hsl: 240.000 22.727% 8.627%;
     --ctp-mocha-crust-oklch: 0.1828 0.0204 284.2038;
+    --extra-bluerple: #7289da;;
+    --extra-bluerple-oklch #7289da;
 }
 
 body {
@@ -138,6 +140,7 @@ body {
 .bg-base      { background-color: var(--ctp-mocha-base); }
 .bg-mantle    { background-color: var(--ctp-mocha-mantle); }
 .bg-crust     { background-color: var(--ctp-mocha-crust); }
+.bg-extra-bluerple { color: var(--extra-bluerple); text-decoration: none;}
 
 .text      { color: var(--ctp-mocha-text); text-decoration: none; }
 .text-rosewater { color: var(--ctp-mocha-rosewater); text-decoration: none; }
@@ -166,6 +169,7 @@ body {
 .text-base      { color: var(--ctp-mocha-base); text-decoration: none; }
 .text-mantle    { color: var(--ctp-mocha-mantle); text-decoration: none; }
 .text-crust     { color: var(--ctp-mocha-crust); text-decoration: none; }
+.text-extra-bluerple { color: var(--extra-bluerple); text-decoration: none;}
 
 .border-rosewater { border-color: var(--ctp-mocha-rosewater); }
 .border-flamingo  { border-color: var(--ctp-mocha-flamingo); }
@@ -193,6 +197,7 @@ body {
 .border-base      { border-color: var(--ctp-mocha-base); }
 .border-mantle    { border-color: var(--ctp-mocha-mantle); }
 .border-crust     { border-color: var(--ctp-mocha-crust); }
+.border-extra-bluerple { color: var(--extra-bluerple); text-decoration: none;}
 
 .fill-rosewater { fill: var(--ctp-mocha-rosewater); }
 .fill-flamingo  { fill: var(--ctp-mocha-flamingo); }
@@ -209,6 +214,7 @@ body {
 .fill-blue      { fill: var(--ctp-mocha-blue); }
 .fill-lavender  { fill: var(--ctp-mocha-lavender); }
 .fill-text      { fill: var(--ctp-mocha-text); }
+.fill-extra-bluerple { color: var(--extra-bluerple); text-decoration: none;}
 
 .outline-rosewater { outline-color: var(--ctp-mocha-rosewater); }
 .outline-flamingo  { outline-color: var(--ctp-mocha-flamingo); }
@@ -224,3 +230,4 @@ body {
 .outline-sapphire  { outline-color: var(--ctp-mocha-sapphire); }
 .outline-blue      { outline-color: var(--ctp-mocha-blue); }
 .outline-lavender  { outline-color: var(--ctp-mocha-lavender); }
+.outline-extra-bluerple { color: var(--extra-bluerple); text-decoration: none;}
