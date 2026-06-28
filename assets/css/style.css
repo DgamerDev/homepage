@@ -17,7 +17,7 @@
 
 /* VIBE CODED - TEXT & BACKROUND CLASSES */
 .bg-base{background-color:var(--base);} .bg-surf0{background-color:var(--surf0);} .bg-surf1{background-color:var(--surf1);} .bg-surf2{background-color:var(--surf2);} .bg-lavender{background-color:var(--lavender);} .bg-blue{background-color:var(--blue);} .bg-green{background-color:var(--green);} .bg-yellow{background-color:var(--yellow);} .bg-peach{background-color:var(--peach);} .bg-maaron{background-color:var(--maaron);} .bg-red{background-color:var(--red);} .bg-mauve{background-color:var(--mauve);}
-.text{color:var(--text);} .text-lavender{color:var(--lavender);} .text-blue{color:var(--blue);} .text-green{color:var(--green);} .text-yellow{color:var(--yellow);} .text-peach{color:var(--peach);} .text-maaron{color:var(--maaron);} .text-red{color:var(--red);} .text-mauve{color:var(--mauve);} .text-none{text-decoration:none;}
+.text{color:var(--text);} .text-surf2{color:var(--surf2);} .text-lavender{color:var(--lavender);} .text-blue{color:var(--blue);} .text-green{color:var(--green);} .text-yellow{color:var(--yellow);} .text-peach{color:var(--peach);} .text-maaron{color:var(--maaron);} .text-red{color:var(--red);} .text-mauve{color:var(--mauve);} .text-none{text-decoration:none;}
 
 /* CSS */
 body {
