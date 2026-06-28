@@ -29,7 +29,7 @@ body {
     font-style: normal;
     font-display: swap;
     font-family: 'JetBrains Mono Nerd Font';
-    src: url('./fonts/NerdFont.ttf') format('truetype');
+    src: url('/assets/fonts/MonoFont.ttf') format('truetype');
 }
 
 #profile {
