@@ -1,0 +1,14 @@
+networks: # Nginx Proxy Manager
+  proxy_services:
+    external: true
+services:
+  server:
+    container_name: homepage
+    restart: always
+    image: httpd:latest
+    ports:
+    - '127.0.0.1:7878:80'
+    volumes:
+    - ./:/usr/local/apache2/htdocs
+    networks:
+    - proxy_services
