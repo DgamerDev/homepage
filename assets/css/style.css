@@ -1,3 +1,21 @@
+/* THEME */
+:root {
+    --base: rgb(30, 30, 46);
+    --surf0: rgb(49, 50, 68);
+    --surf1: rgb(69, 71, 90);
+    --surf2: rgb(88, 91, 112);
+    --text: rgb(205, 214, 244);
+    --lavender: rgb(180, 190, 254);
+    --blue: rgb(137, 180, 250);
+    --green: rgb(166, 227, 161);
+    --yellow: rgb(249, 226, 175);
+    --peach: rgb(250, 179, 135);
+    --maaron: rgb(235, 160, 172);
+    --red: rgb(243, 139, 168);
+    --mauve: rgb(203, 166, 247);
+}
+
+/* CSS */
 body {
     font-family: 'JetBrains Mono Nerd Font', Arial, Helvetica, sans-serif;
     height: 100%;
