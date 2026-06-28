@@ -17,28 +17,28 @@
 
 /* CSS */
 body {
-    font-family: 'JetBrains Mono Nerd Font', Arial, Helvetica, sans-serif;
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'JetBrains Mono Nerd Font', Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
 
 @font-face {
-    font-family: 'JetBrains Mono Nerd Font';
-    src: url('./fonts/NerdFont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+    font-family: 'JetBrains Mono Nerd Font';
+    src: url('./fonts/NerdFont.ttf') format('truetype');
 }
 
 #profile {
+    padding: 0 10%;
+    gap: 60px;
+    min-height: calc(100vh - 60px);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 10%;
-    min-height: calc(100vh - 60px);
-    gap: 60px;
 }
 
 #profile-picture {
@@ -49,60 +49,33 @@ body {
     width: 320px;
     height: 320px;
     border-radius: 50%;
-    border: 3px solid #585b70;
     object-fit: cover;
 }
 
+/* About me */
 #about-me {
     flex: 1;
     max-width: 500px;
 }
 
 #about-me h1 {
-    text-align: center;
     font-size: 3.5rem;
-    color: #fab387;
     margin: 0 0 16px;
+    text-align: center;
 }
 
 #about-me h2 {
-    text-align: center;
-    color: #fab387;
     margin: 0 0 16px;
+    text-align: center;
 }
 
 #about-me p {
-    text-align: center;
     font-size: 1.3rem;
-    color: #a6adc8;
     margin: 0;
-}
-
-#share {
-    flex: 1;
-    max-width: 500px;
-}
-
-#share h2 {
     text-align: center;
-    color: #fab387;
-    margin: 0 0 16px;
 }
 
-#share .h6 {
-    text-align: center;
-    font-size: 10px;
-    margin: 0 0 0 0;
-}
-
-#share details {
-    cursor: pointer;
-    text-align: center;
-    font-size: 1.0rem;
-    color: #a6adc8;
-    margin: 0;
-}
-
+/* Vibe coded - Projects Cards */
 #projects {
     padding: 40px 5%;
     min-height: calc(100vh - 60px);
@@ -112,10 +85,10 @@ body {
     border-radius: 16px;
     padding: 20px;
     display: flex;
-    align-items: center;
-    text-align: center;
     gap: 24px;
     margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
 }
 
 #projects .card-img {
