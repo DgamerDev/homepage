@@ -80,6 +80,10 @@ body {
 }
 
 /* AGAIN VIBE CODED - Projects Cards */
+
+#projects-error {
+    text-align: center;
+}
 #projects {
     padding: 40px 5%;
     min-height: calc(100vh - 60px);

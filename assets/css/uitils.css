@@ -75,7 +75,9 @@
 }
 
 #footer {
-    border-top: 1.5px solid #bac2de;
+    border-top: 5px solid var(--surf1);
+    background-color: var(--surf0);
+    min-height: 100px;
 }
 
 #footer .h6 {
@@ -92,8 +94,12 @@
     margin-bottom: 2rem;
 }
 
-#footer .name{
-    font-size: 1.35rem;
+#footer .copyright {
+    font-size: 1rem;
     font-weight: bold;
     margin-bottom: 0;
+}
+
+#footer .links {
+    font-size: 0.75rem;
 }
